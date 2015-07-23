@@ -66,6 +66,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="classroom.cpp" />
+    <ClCompile Include="myfile.cpp" />
+    <ClCompile Include="mystore.cpp" />
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="classroom.h" />
+    <ClInclude Include="enumclassdef.h" />
+    <ClInclude Include="listTemplate.h" />
+    <ClInclude Include="myfile.h" />
+    <ClInclude Include="mystore.h" />
+    <ClInclude Include="utility.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
